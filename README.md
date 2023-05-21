@@ -10,7 +10,8 @@
 
 
 ## Preview
-https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/932dfde8-e597-43f9-bcb0-8a458597fc5e?raw=true
+![ezgif-5-9760a86721](https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/f025d1b5-1752-4c76-8a7a-5a80e6eabb34)
+
 
 
 ## Example  Usage
