@@ -10,7 +10,7 @@
 
 
 ## Preview
-https://twitter.com/i/status/1659489058999922688
+https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/932dfde8-e597-43f9-bcb0-8a458597fc5e?raw=true
 
 
 ## Example  Usage
