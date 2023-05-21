@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b8a398-6109-4b3f-bb1b-6d8b4affe0ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Progress.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Progress.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/components/Progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Progress.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MaskedNeomorphism.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MaskedNeomorphism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeomorphComponent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeomorphComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeomorphicSwitch.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeomorphicSwitch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeuInput.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeuInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeumorphicButton.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/NeumorphicButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/BilinearGradient.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/BilinearGradient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Border.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Border.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/MainComponent.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/MainComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/OffsetShadow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/OffsetShadow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ShadowInnerWithOffsetShadow.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/ShadowInnerWithOffsetShadow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/SprayEffect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/SprayEffect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Stroke.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Stroke.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/helpers.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/helpers.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +46,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2Q7JhQcTZonJK96Qe8YDCpH5CHo" />
   <component name="ProjectViewState">
@@ -54,7 +81,9 @@
       <option name="presentableId" value="Default" />
       <updated>1684698804904</updated>
       <workItem from="1684698807660" duration="1158000" />
-      <workItem from="1684699977899" duration="1120000" />
+      <workItem from="1684699977899" duration="1324000" />
+      <workItem from="1684701614871" duration="57000" />
+      <workItem from="1684701683607" duration="1227000" />
     </task>
     <servers />
   </component>
