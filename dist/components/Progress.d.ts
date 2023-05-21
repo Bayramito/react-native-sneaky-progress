@@ -1,13 +1,14 @@
-declare const Progress: ({ step, totalSteps, stepSize, fontSize, numberOfCurves, onStep, strokeWidth, background, backgroundProps, textColor, }: {
-    step: any;
-    totalSteps: any;
-    stepSize: any;
-    fontSize: any;
-    numberOfCurves: any;
-    onStep: any;
-    strokeWidth: any;
-    background: any;
-    backgroundProps: any;
-    textColor: any;
-}) => any;
+import React from "react";
+interface ProgressProps {
+    step: number;
+    totalSteps: number;
+    stepSize?: number;
+    fontSize?: number;
+    numberOfCurves?: number;
+    onStep?: (step: number) => void;
+    strokeWidth?: number;
+    background?: string;
+    fontFamily?: string;
+}
+declare const Progress: React.FC<ProgressProps>;
 export default Progress;

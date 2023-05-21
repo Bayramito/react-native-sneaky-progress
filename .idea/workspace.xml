@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b8a398-6109-4b3f-bb1b-6d8b4affe0ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Progress.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/Progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/components/Progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684698804904</updated>
       <workItem from="1684698807660" duration="1158000" />
-      <workItem from="1684699977899" duration="388000" />
+      <workItem from="1684699977899" duration="1120000" />
     </task>
     <servers />
   </component>

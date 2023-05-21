@@ -10,7 +10,7 @@ const HORIZONTAL_SHIFT = 30;
 const LINE_HEIGHT = 80;
 const LINE_START_Y = 60;
 const RADIUS = 10;
-const Progress = ({ step, totalSteps, stepSize, fontSize, numberOfCurves, onStep, strokeWidth, background, backgroundProps, textColor, }) => {
+const Progress = ({ step, totalSteps, stepSize, fontSize, numberOfCurves, onStep, strokeWidth, background, backgroundProps, textColor, fontFamily }) => {
     if (step > totalSteps) {
         throw new Error("Step cannot be greater than total steps");
     }
@@ -39,7 +39,7 @@ const Progress = ({ step, totalSteps, stepSize, fontSize, numberOfCurves, onStep
     const FONT_SIZE = fontSize || 12;
     const STEP_SIZE = stepSize || 12;
     const path = Skia.Path.Make();
-    const font = useFont(require("../../assets/fonts/Gilroy-Regular.ttf"), FONT_SIZE);
+    const font = useFont(require(fontFamily || "../assets/Gilroy-Regular.ttf"), FONT_SIZE);
     Array.from({ length: NUMBER_OF_CURVES }).forEach((_, i) => {
         if (i === 0)
             path.moveTo(HORIZONTAL_SHIFT, LINE_START_Y);
@@ -77,9 +77,9 @@ const Progress = ({ step, totalSteps, stepSize, fontSize, numberOfCurves, onStep
                 React.createElement(Path, { path: path, style: "stroke", strokeWidth: STROKE_WIDTH, color: BACKGROUND_COLOR, strokeCap: "round" })),
             React.createElement(Group, null,
                 React.createElement(Shadow, { color: WAY_SHADOW_COLOR, dx: 0, dy: 0, blur: 15 }),
-                React.createElement(Path, { path: path, style: "stroke", strokeWidth: STROKE_WIDTH - 4, color: PROGRESS_COLOR, strokeCap: "round", end: progress })),
+                React.createElement(Path, { path: path, style: "stroke", strokeWidth: STROKE_WIDTH - 4, color: PROGRESS_COLOR, strokeCap: "round", end: progress.value })),
             Array.from({ length: TOTAL_STEPS }).map((item, index) => {
-                return (React.createElement(StepCircle, Object.assign({ key: index }, {
+                return (React.createElement(StepCircle, Object.assign({}, {
                     geo,
                     totalLength,
                     TOTAL_STEPS,
@@ -108,7 +108,7 @@ const StepCircle = ({ geo, totalLength, TOTAL_STEPS, index, STEP_SIZE, CURRENT_P
         React.createElement(Path, { style: "stroke", color: PROGRESS_COLOR, path: border, strokeWidth: 0.5 }),
         React.createElement(Text, { text: `${index + 1}`, x: point.x - (FONT_SIZE / 2) * (index >= 10 ? 0.75 : 0.75), y: point.y + (FONT_SIZE / 2) * 0.7, font: font, color: TEXT_COLOR || "black" })));
 };
-const Background = ({ backgroundProps, background, height }) => {
+const Background = ({ backgroundProps, background, }) => {
     return (React.createElement(Image, { source: background, style: Object.assign({ position: "absolute", top: 0, left: 0 }, backgroundProps), resizeMode: "cover" }));
 };
 class PathGeometry {
