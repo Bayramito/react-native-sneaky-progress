@@ -14,7 +14,7 @@ Built with React Native Skia and Reanimated v3.
 ![ezgif-5-9760a86721](https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/f025d1b5-1752-4c76-8a7a-5a80e6eabb34)
 
 ## Example  Usage
-
+```js
     import {Progress} from '@bayramitto/react-native-sneaky-progress';
 
     <Progress
@@ -27,11 +27,12 @@ Built with React Native Skia and Reanimated v3.
         background={imagesTask.task_progress_bg}
         backgroundProps={{}}
         backgroundColor={"#EEEEEE"}
-        strokeColor?= {"#6FD904"}
+        strokeColor={"#6FD904"}
         backgroundShadowColor={"#000000"}
         textColor={"#000000"}
         onStep={x => console.log("current step", x)}
     />
+```
 
 
 ## Properties   
