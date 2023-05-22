@@ -27,7 +27,7 @@ Built with React Native Skia and Reanimated v3.
         background={imagesTask.task_progress_bg}
         backgroundProps={{}}
         backgroundColor={"#EEEEEE"}
-        strokeColor?= {"#6FD904"}
+        strokeColor?={"#6FD904"}
         backgroundShadowColor={"#000000"}
         textColor={"#000000"}
         onStep={x => console.log("current step", x)}
