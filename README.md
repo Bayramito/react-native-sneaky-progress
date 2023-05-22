@@ -1,21 +1,24 @@
 # React Native Sneaky Progress
-## A Sneak Shape Progress Stepper
+
+## Description
+ This component is a Progress Stepper that can be used to  progress through several steps in the progress bar. 
+Built with React Native Skia and Reanimated v3.
+
+
 
 ## Installation
 
     npm i @bayramitto/react-native-sneaky-progress
 
-## Description
-### This component is a Progress Stepper that can be used to  progress through several steps in the progress bar
-
-
 ## Preview
-https://twitter.com/i/status/1659489058999922688
+![ezgif-5-9760a86721](https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/f025d1b5-1752-4c76-8a7a-5a80e6eabb34)
 
 
 ## Example  Usage
 
-    <AnimatedPathProgress
+    import {Progress} from '@bayramitto/react-native-sneaky-progress';
+
+    <Progress
         numberOfCurves={4}
         step={this.state.currentStep}
         totalSteps={20}
@@ -24,6 +27,10 @@ https://twitter.com/i/status/1659489058999922688
         strokeWidth={20}
         background={imagesTask.task_progress_bg}
         backgroundProps={{}}
+        backgroundColor={"#EEEEEE"}
+        strokeColor?= {"#6FD904"}
+        backgroundShadowColor={"#000000"}
+        textColor={"#000000"}
         onStep={x => console.log("current step", x)}
     />
 
@@ -41,5 +48,19 @@ https://twitter.com/i/status/1659489058999922688
 | background | imagesTask.task_progress_bg | `string` | Background image of the progress bar |
 | backgroundProps | {} | `object` | Background image props of the progress bar |
 | onStep | x => console.log("current step", x) | `function` | Callback function when step changes in the progress bar |
+| backgroundColor | #EEEEEE | `string` | Background color of the progress bar |
+| strokeColor | #6FD904 | `string` | Stroke color of the progress bar |
+| backgroundShadowColor | #000000 | `string` | Background shadow color of the progress bar |
+| textColor | #000000 | `string` | Text color of the progress bar |
+
+
+## License 
+MIT
+
+## Author
+Bayram Arif 
+
+
+
 
 

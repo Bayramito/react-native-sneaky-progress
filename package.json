@@ -1,6 +1,6 @@
 {
   "name": "@bayramitto/react-native-sneaky-progress",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "A Sneak Style Path Progress Stepper Component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,8 +15,8 @@
   },
   "keywords": [
     "react-native",
-    "color",
-    "picker"
+    "progress",
+    "stepper"
   ],
   "author": "bayram-arif",
   "license": "MIT",
@@ -37,7 +37,7 @@
     "typescript": "^4.8.3"
   },
   "peerDependencies": {
-    "react-native-reanimated": "3.x",
+    "react-native-reanimated": "2.x",
     "@shopify/react-native-skia": "^0.1.x"
   },
   "dependencies": {}
