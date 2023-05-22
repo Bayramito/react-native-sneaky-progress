@@ -13,7 +13,6 @@ Built with React Native Skia and Reanimated v3.
 ## Preview
 ![ezgif-5-9760a86721](https://github.com/Bayramito/react-native-sneaky-progress/assets/44513402/f025d1b5-1752-4c76-8a7a-5a80e6eabb34)
 
-
 ## Example  Usage
 
     import {Progress} from '@bayramitto/react-native-sneaky-progress';
