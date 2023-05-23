@@ -1,6 +1,6 @@
 {
   "name": "@bayramitto/react-native-sneaky-progress",
-  "version": "0.0.12",
+  "version": "0.0.16",
   "description": "A Sneak Style Path Progress Stepper Component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
